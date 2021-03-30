@@ -62,8 +62,8 @@ class employee {
 }
 var emp1 = new employee("albert", "mickel" , "sky" , 85000)
 //console.log(emp1)
-console.log(emp1.middlename)
+//console.log(emp1.middlename)
 console.log(emp1.getfullname())
 emp1.getedit("newton noha farnades")
 console.log(emp1.getfullname())
-console.log(emp1.middlename)
+//console.log(emp1.middlename)

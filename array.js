@@ -60,7 +60,7 @@ else {
     console.log("error!!")
 }
 */
-
+/*
 let arrName = [2,3,5,7,11,13,17,19]
 let index = arrName.indexOf(13)
 if(arrName[index]){
@@ -69,3 +69,4 @@ if(arrName[index]){
 else{
     console.log("error!!!")
 }
+*/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           .page{
+                 padding:10px;
+                border: 1px solid rgb(240, 82, 240);
+                border-radius: 20px;
+                width:300px;
+                margin-top: 10px;
+               background-color:rgb(218, 248, 194);
+               color: chocolate;
+               background-image: url(download.jpg);
+           } 
+           .gen{
+               color:brown;
+               font-family: monospace;
+               
+           }
+        </style>
+        <title> SignUp page</title>
+    </head>
+    <body>
+        <h2 style="text-align: left; color: darkkhaki; font-style: italic;"> SignUP here</h2>
+        <div class="page">
+            <form>
+         
+                <label for="fname">First Name:</label><br>
+                <input type="text" name="fname" id="fname"> <br> <br>
+    
+                <label for="lname">Last Name:</label><br>
+                <input type="text" name="lname" id="lname"> <br> <br> 
+                
+                <div class="gen">
+                    <h>gender :</h>
+                  <input type="radio" name="male" id="male" value="male">
+                  <label for="male">MALE</label>
+                  <input type="radio" name="female" id="female" value="female">
+                  <label for="female">FEMALE</label>
+                  <input type="radio" name="other" id="other" value="other">
+                  <label for="other">OTHER</label><br><br>
+                </div>
+    
+                <div>
+                    <label for="Date">Date Of Birth</label><br>
+                    <input type="month" name="maonth" id="month"> <br> <br>
+                </div>
+                
+                <label for="Email">Email  :  </label><br>
+                <input type="Email" name="Email" id="Email"> <br> <br> 
+                
+                <label for="Password">Password:</label><br>
+                <input type="password" name="Password" id="Password"><br> <br> 
+    
+                <input type="submit" value="submit">
+                <input type="reset">
+        </div> 
+                  
+        </form>
+    </body>
+</html>
